@@ -44,9 +44,7 @@ bot.on("ready", () => {
 //Segéd -------------------------------------------------
 const prefix = "!"
 
-const tok = "NzEwNTE3MDA5OTIxNzM2NzE1.Xr1m0w._dt3h1sJg7DStabcQzvnpQX0sUE"
-
-bot.login('NzEwNTE3MDA5OTIxNzM2NzE1.Xr1m0w._dt3h1sJg7DStabcQzvnpQX0sUE')
+bot.login(process.env.BOT_TOKEN)
 
 //Segéd vége --------------------------------------------
 
