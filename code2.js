@@ -19,7 +19,7 @@ var bot = new commando.Client ({
 
 
 //Changing Status -------------------------
-
+/*
 let activNum = 0;
 setInterval(function() {
     if (activNum === 0 ) {
@@ -30,7 +30,7 @@ setInterval(function() {
        activNum = 0;
      }
 }, 10*1000);
-
+*/
 //Changing Status -------------------------
 
 
