@@ -29,7 +29,7 @@ setInterval(function() {
        bot.user.setActivity(`✍️!help✍️`, {type: "WATCHING"});
        activNum = 0;
      }
-}, 10000);
+}, 10*1000);
 
 //Changing Status -------------------------
 
@@ -40,7 +40,6 @@ bot.on("ready", () => {
     bot.user.setStatus("dnd");
 });
 
-/* */
 //Segéd -------------------------------------------------
 const prefix = "!"
 
