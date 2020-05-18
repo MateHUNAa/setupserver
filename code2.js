@@ -40,7 +40,7 @@ bot.on("ready", () => {
     bot.user.setStatus("dnd");
 });
 
-
+/* */
 //Segéd -------------------------------------------------
 const prefix = "!"
 
